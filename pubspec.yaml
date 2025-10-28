@@ -36,10 +36,15 @@ dependencies:
   cupertino_icons: ^1.0.8
   velocity_x: ^4.3.1
   loading_animation_widget: ^1.3.0
-
+  geolocator: ^14.0.2
   firebase_core: ^4.2.0
   firebase_auth: ^6.1.1
   cloud_firestore: ^6.0.3
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  google_fonts: ^6.2.1
+  google_maps_flutter: ^2.13.1
+
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +73,9 @@ flutter:
      - assets/aidlogo.png
      - assets/logo.png
      - assets/mapsample.png
+     - assets/pfsample.png
+     - assets/pfsample1.png
+     - assets/pfsample2.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
