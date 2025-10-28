@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "61320314173",
+    "project_id": "aidkriya-9de90",
+    "storage_bucket": "aidkriya-9de90.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61320314173:android:27b63443e9bff575d91954",
+        "android_client_info": {
+          "package_name": "com.example.aidkriya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnAjvu2G0HVRtFXMYzDqq7_-bXaRerYRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
