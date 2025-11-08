@@ -2,6 +2,7 @@ import 'package:aidkriya/screens/Walkerscreen/WalkerScreen.dart';
 import 'package:aidkriya/screens/auth/login.dart';
 import 'package:aidkriya/screens/auth/SignUp.dart';
 import 'package:aidkriya/screens/splash/SplashScreen.dart';
+import 'package:aidkriya/screens/wanderer_screen/Payment/Payment.dart';
 import 'package:aidkriya/screens/wanderer_screen/WandererMainScreen.dart';
 import 'package:aidkriya/screens/wanderer_screen/bottomnav/ScheduleWalk.dart';
 import 'package:aidkriya/screens/wanderer_screen/mainscreen.dart';
@@ -14,6 +15,7 @@ class MyRoutes {
   static const String signup = '/signup';
   static const String splash = '/splash';
   static const String wanMS = '/wanMS';
+  static const String Payment ='/payment';
   static const String scheduleWalk = '/scheduleWalk';
   static const String mainscreen = '/mainscreen';
   static const String WalkerS ='/walkers' ;
@@ -28,6 +30,7 @@ class MyRoutes {
     scheduleWalk : (context) => ScheduleWalk(),
     WalkerS:(context)=>Walkerscreen(),
     wmap:(context)=>Walkermap(),
+    Payment:(context)=>PaymentScreen(duration: 1, rate: 1, distance: 1, upiId: "7817920772@superyes"),
 
 
 

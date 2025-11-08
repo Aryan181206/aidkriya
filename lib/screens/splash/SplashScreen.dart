@@ -25,7 +25,7 @@ class _SplashscreenState extends State<Splashscreen> {
     super.initState();
     // Start a timer to navigate after a few seconds
     Timer(const Duration(seconds: 4), () {
-      Navigator.pushReplacementNamed(context, '/walkers');
+      Navigator.pushReplacementNamed(context, '/payment');
     });
   }
 

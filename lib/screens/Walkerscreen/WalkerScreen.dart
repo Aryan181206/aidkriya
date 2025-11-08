@@ -2,6 +2,7 @@ import 'package:aidkriya/screens/Walkerscreen/bottomnav/Request/Request.dart';
 import 'package:aidkriya/screens/Walkerscreen/bottomnav/chat/Wchatscreen.dart';
 import 'package:aidkriya/screens/Walkerscreen/bottomnav/ongoing/wmap.dart';
 import 'package:aidkriya/screens/Walkerscreen/bottomnav/profile/WProfileScreen.dart';
+import 'package:aidkriya/screens/Walkerscreen/bottomnav/wallet/Wallet.dart';
 import 'package:flutter/material.dart';
 import 'package:aidkriya/colors/MyColors.dart';
 
@@ -12,13 +13,7 @@ import 'package:aidkriya/colors/MyColors.dart';
 // and create simple placeholders for the other pages.
 
 
-class WalletScreen extends StatelessWidget {
-  const WalletScreen({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return const Center(child: Text('Wallet & Earnings', style: TextStyle(color: Colors.white, fontSize: 24)));
-  }
-}
+
 
 
 class Walkerscreen extends StatefulWidget {
